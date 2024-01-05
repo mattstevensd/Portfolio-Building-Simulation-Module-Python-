@@ -1,2 +1,10 @@
 # Portfolio-Building-Simulation-Module-Python-
-Module for building asset portfolio and simulating random outcomes of portfolio over a specified period of time (allow for portfolio withdrawal).
+Description: Module for building asset portfolio and simulating random outcomes of portfolio over a specified period of time (allow for portfolio withdrawal).
+
+There are two classes in the InvestmentClasses module:
+
+1. Asset Class: This class allows you to define an asset (stock, commodity, etc.). You must assign the asset a yearly interest rate expectation and variance which the simulation will use to model the asset as a normally distributed random variable (Note: will only be useful if it makes sense to model such asset in this manner).
+
+2. Portfolio Class: Can define a portfolio by adding a list of assets and there corresponding investments as the initialization input (Ex: [[Asset1,10],[Asset2,50]]). This class includes a simulaiton method that allow you to simulate the portfolio performance over a specified number of years. This simulation outputs a histogram, a CSV file containg the raw data, and a CSV file containing an analytics report.
+
+What is being worked on:
